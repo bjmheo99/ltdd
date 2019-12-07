@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Food App</string>
+    <string name="title_activity_main">Menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Cài đặt</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">xin chào bạn</string>
+    <string name="dialog_title">Bạn có chắc chắn bạn muốn thoát ?</string>
+    <string name="dialog_popup">Food App</string>
+    <string name="ok" />
+    <string name="cancel" />
+
+
+</resources>

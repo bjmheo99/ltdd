@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_fastfood"
+            android:icon="@drawable/burgerone"
+            android:title="Đồ ăn nhanh" />
+        <item
+            android:id="@+id/nav_continental"
+            android:icon="@drawable/traditional"
+            android:title="Món ăn nước ngoài" />
+
+        <item
+            android:id="@+id/nav_traditional"
+            android:icon="@drawable/traditional"
+            android:title="Món ăn truyền thống" />
+
+        <item
+            android:id="@+id/nav_chinese"
+            android:icon="@drawable/pastalogo"
+            android:title="Mỳ" />
+
+    </group>
+
+    <item android:title="Hồ sơ">
+        <menu>
+
+            <item
+                android:id="@+id/order_details_drawer"
+                android:icon="@drawable/ic_order_details_24dp"
+                android:title="Chi tiết đơn hàng" />
+
+            <item
+                android:id="@+id/submit_order"
+                android:icon="@drawable/ic_event_available_black_24dp"
+                android:title="lịch sử" />
+
+            <item
+                android:id="@+id/log_out"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Đăng xuất" />
+
+        </menu>
+    </item>
+
+</menu>
